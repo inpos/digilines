@@ -31,7 +31,7 @@ end
 
 minetest.register_alias("digilines_lightsensor:lightsensor", "digilines:lightsensor")
 minetest.register_node("digilines:lightsensor", {
-	description = "Digiline Lightsensor",
+	description = "Цифровой датчик света",
 	drawtype = "nodebox",
 	tiles = {"digilines_lightsensor.png"},
 

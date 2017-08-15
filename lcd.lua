@@ -161,7 +161,7 @@ local lcd_box = {
 minetest.register_alias("digilines_lcd:lcd", "digilines:lcd")
 minetest.register_node("digilines:lcd", {
 	drawtype = "nodebox",
-	description = "Digiline LCD",
+	description = "Цифровой ЖК-индикатор",
 	inventory_image = "lcd_lcd.png",
 	wield_image = "lcd_lcd.png",
 	tiles = {"lcd_anyside.png"},

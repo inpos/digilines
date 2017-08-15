@@ -28,7 +28,7 @@ local tubescan = minetest.get_modpath("pipeworks") and function(pos) pipeworks.s
 
 minetest.register_alias("digilines_inventory:chest", "digilines:chest")
 minetest.register_node("digilines:chest", {
-	description = "Digiline Chest",
+	description = "Цифровой сундук",
 	tiles = {
 		"default_chest_top.png"..tubeconn,
 		"default_chest_top.png"..tubeconn,
@@ -43,7 +43,7 @@ minetest.register_node("digilines:chest", {
 	sounds = default.node_sound_wood_defaults(),
 	on_construct = function(pos)
 		local meta = minetest.get_meta(pos)
-		meta:set_string("infotext", "Digiline Chest")
+		meta:set_string("infotext", "Цифровой сундук")
 		meta:set_string("formspec", "size[8,10]"..
 			((default and default.gui_bg) or "")..
 			((default and default.gui_bg_img) or "")..
