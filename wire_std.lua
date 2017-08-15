@@ -36,7 +36,7 @@ for zmy=0, 1 do
 
 	if nodeid == "00000000" then
 		groups = {dig_immediate = 3}
-		wiredesc = "Digiline"
+		wiredesc = "Цифровая линия"
 	else
 		groups = {dig_immediate = 3, not_in_creative_inventory = 1}
 	end
